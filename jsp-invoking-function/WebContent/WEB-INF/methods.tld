@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+http://xmlns.jcp.org/xml/ns/javaee/web-jsptaglibrary 2 1.xsd">
+<tlib-version>1.0</tlib-version>
+<short-name>fct</short-name>
+<uri>functions</uri>
+<function>
+	<name>isAcceptableType</name>
+	<function-class>demo.Pojo</function-class>
+	<function-signature>boolean isAcceptableType(java.lang.String)</function-signature>
+</function>
+</taglib>

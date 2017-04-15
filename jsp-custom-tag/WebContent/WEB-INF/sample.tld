@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/
+XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
+ns/javaee/web-jsptaglibrary 2 1.xsd">
+	<tlib-version>1.0</tlib-version>
+	<short-name>per</short-name>
+	<uri>person</uri>
+	<tag>
+		<name>person</name>
+		<tag-class>demo.NewTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>true</rtexprvalue>
+			<required>false</required>
+		</attribute>
+		<attribute>
+			<name>age</name>
+			<rtexprvalue>true</rtexprvalue>
+			<required>false</required>
+		</attribute>
+		<attribute>
+			<name>about</name>
+			<rtexprvalue>true</rtexprvalue>
+			<required>false</required>
+		</attribute>
+	</tag>
+</taglib>
